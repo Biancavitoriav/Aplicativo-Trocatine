@@ -1,37 +1,53 @@
-# Mobile TrocaTine
+## Biblioteca de Livros - Documentação
 
-O aplicativo tem como foco realizar a troca e venda de artigos infantis, como roupas, sapatos, acessórios, brinquedos, entre outros. Nosso objetivo é incentivar a sustentabilidade e promover um consumo mais consciente, oferecendo um lugar onde os usuários podem interagir, trocar informações e participar de grupos.
+Esta biblioteca foi desenvolvida para exibir livros best-sellers utilizando a API do New York Times. O sistema permite buscar os livros mais vendidos e exibi-los em um carrossel interativo, além de contar com uma interface moderna e responsiva.
 
+### Stacks Utilizadas
 
+- **Linguagem:** JavaScript (React)
+- **Framework UI:** Material-UI
+- **Bibliotecas Adicionais:**
+  - `react-slick` (Carrossel interativo)
+  - `slick-carousel` (Estilos do carrossel)
+- **Fonte de Dados:** API do New York Times
 
+### Instalação
 
+Para utilizar o projeto, siga os passos abaixo:
 
+```sh
+git clone https://github.com/seu-repositorio/nome-do-projeto.git
+cd nome-do-projeto
+npm install
+npm start
+```
 
-## Stacks Utilizadas
+### Configuração
 
+É necessário obter uma chave da API do New York Times. Para isso:
+1. Acesse [NY Times API](https://developer.nytimes.com/).
+2. Gere uma chave de API.
+3. Substitua `yourkey` no código pelo valor correto.
 
-*Linguagem:* Java
+### Funcionalidades
 
-*IDE:* Android Studio
+#### 1. Buscar Best-Sellers
+A biblioteca consome a API do NY Times para obter uma lista atualizada dos livros mais vendidos.
 
-*Banco de Dados:* Firebase
+#### 2. Exibir Livros no Carrossel
+Os livros recuperados da API são exibidos em um carrossel interativo, permitindo a navegação fácil.
 
+#### 3. Interface Responsiva
+A interface foi projetada utilizando Material-UI para oferecer uma experiência agradável em diferentes dispositivos.
 
-## Funcionalidades
+### Requisitos
 
-- Login e cadastro do usuário.
-- Troca e venda dos artigos infantis, sistema de carrinho, endereço da entrega e forma de pagamento.
-- Chats e grupos, permitindo que os usuários conversem para negociar trocas ou vendas.
-- Sistema de recompensa, ao comprar e vender algo o usuário ganha um valor de "trocadinhas", que o garante benefícios.
-- Notificações de mensagens e solicitações de troca.
+- Node.js versão 16 ou superior
+- Chave de API do New York Times
 
+### Executando o Projeto
 
-## Requisitos
- - Android Studio instalado na versão HedgeHog / 2023.1.1 , ou maior.
- - Obter uma conta no Firebase
+```sh
+npm run dev
+```
 
-    
-## Autores
-
-- [@Biancavitoriav](https://github.com/Biancavitoriav)
-- [@geovannad](https://github.com/geovannad)
